@@ -1,3 +1,4 @@
+
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
@@ -59,7 +60,7 @@
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
 
-            tap-ms = <40>;
+            tap-ms = <35>;
         };
 
         scroll_right_left: mouse_wheel_right_left {
