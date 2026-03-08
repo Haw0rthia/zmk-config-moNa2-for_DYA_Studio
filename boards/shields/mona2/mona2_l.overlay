@@ -1,4 +1,6 @@
 #include "mona2.dtsi"
+#include <input/processors/runtime-input-processor.dtsi>
+#include <behaviors/battery_history_request.dtsi>
 
 &kscan0 {
         col-gpios
